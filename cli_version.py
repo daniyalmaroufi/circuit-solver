@@ -14,5 +14,4 @@ if __name__ == '__main__':
             ShowResults.printResults(circuit[0])
             break
         else:
-            print("wrong input!")
-            break
+            print("Wrong input! Try agian.")

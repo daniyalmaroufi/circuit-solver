@@ -72,7 +72,7 @@ class Solve():
 
     def generateE(self, indepVolts):
         for i in range(0, len(indepVolts)):
-            self.__e[i][0] = indepVolts[i].Voltage
+            self.__e[i][0] = -indepVolts[i].Voltage
         return self.__e
 
     def generateZ(self, nodes, indepVolts):

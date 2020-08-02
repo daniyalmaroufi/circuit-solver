@@ -31,7 +31,7 @@ function createEl(event) {
         'Current': 'IC',
         'Resistor': 'R'
     };
-    const statement = `${map[selectedItem]} ${neg} ${pos} ${value}`;
+    const statement = `${map[selectedItem]} ${pos} ${neg} ${value}`;
     console.log('statement: ', statement)
 
     $.ajax({
