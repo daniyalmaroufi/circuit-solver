@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nodal Analysis Circuit Solver</title>
+    <link rel="stylesheet" href={{ url_for('static', filename='style.css') }}>
+    <link rel="shortcut icon" href={{ url_for('static', filename='img/icon.png') }}>
+</head>
+
+<body onload="renderSidebar()">
+    <div class="wrapper">
+        <div class="header">
+            <h1>Nodal Analysis Circuit Solver</h1>
+        </div>
+        <div class="container">
+            <div class="column-left">
+                <h2 style="float: left;margin-left: 5px;">Board</h2>
+                <p id="selectedelement"></p>
+                <div id="canvas" onclick="createEl(event)"></div>
+                <div id="node-nums">
+                    <button id="calc-btn">Calculate</button>
+                    <button id="reset-btn" style="background-color: #f24185;">Reset</button>
+                </div>
+            </div>
+            <div class="column-right" style="background-color: #aaf1d0;">
+                <h2>Results</h2>
+                <p id="results"> After clicking on Calculate, results will be shown here.</p>
+            </div>
+            <div class="column-right">
+                <h2>Elements</h2>
+                <p>First Click on Elemect to choose, then click on the board to put element.</p>
+                <div id="sidebar" class="sidebar"></div>
+            </div>
+        </div>
+        <div class="footer">
+            <h4>Developed By Daniyal Marofi</h4>
+            <h4>Circuits and Electrical Machines - University of Tehran</h4>
+        </div>
+    </div>
+
+    <script src={{ url_for('static', filename='jquery-3.3.1.js') }}></script>
+    <script src={{ url_for('static', filename='script.js') }}></script>
+</body>
+</html>

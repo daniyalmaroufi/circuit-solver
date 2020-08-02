@@ -1,0 +1,105 @@
+
+        .header {
+            border: 1px solid black;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .container {
+            float: left;
+            width: 100%;
+        }
+
+        .column-left {
+            float: left;
+            width: 60%;
+            background-color: #eae6b4;
+            border-right: 1px solid black;
+            border-left: 1px solid black;
+            box-sizing: border-box;
+        }
+
+        .column-right {
+            float: right;
+            width: 20%;
+            height: 562px;
+            background-color: #f1b1b1;
+            border-right: 1px solid black;
+            overflow: auto;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+
+        #canvas {
+            float: left;
+            width: 100%;
+            height: 400px;
+            background-color: #e1e1e1;
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+        }
+
+
+.sidebar-element{
+	width: 150px;
+	height: 150px;
+}
+
+.sidebar-element:hover{
+	background-color: #c5dcff;
+	width: 150px;
+	height: 150px;
+}
+
+.canvas-element{
+	position: absolute;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+.inner-el{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+        .footer {
+            border: 1px solid black;
+            float: right;
+            width: 100%;
+            text-align: center;
+        }
+
+        #node-nums {
+            width: 100%;
+            text-align: center;
+        }
+
+        button {
+            height: 50px;
+            width: 160px;
+            background-color: #40B4DE;
+            color: #fff;
+            font-size: 0.75em;
+            border-radius: 50px;
+            margin: 22px auto;
+            border: none;
+        }
+
+        button:focus {
+            outline: 0;
+        }
+
+        .sidebar{
+            text-align: center;
+        }
+
+        #selectedelement{
+            float: right;
+    margin-right: 50px;
+    margin-top: 25px;
+        }
