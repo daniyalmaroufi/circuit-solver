@@ -33,4 +33,4 @@ Here is commands to use the app:
 
 ## Screenshot
 
-![Screenshot](.\screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/daniyalmarofi/NACS/master/screenshot.png)
